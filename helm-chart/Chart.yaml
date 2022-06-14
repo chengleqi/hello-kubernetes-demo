@@ -28,9 +28,9 @@ keywords:
 - kubernetes
 - deploy
 - hello
-home: https://github.com/jhidalgo3/
+home: https://github.com/chengleqi/
 sources:
-- https://github.com/jhidalgo3/hello-kubernetes
+- https://github.com/chengleqi/hello-kubernetes-demo
 maintainers:
-- name: Jose Maria Hidalgo
-  email: jhidalgo3@gmail.com
+- name: chengleqi
+  email: chengleqi5g@hotmail.com
