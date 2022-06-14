@@ -4,10 +4,10 @@
 
 replicaCount: 1
 image:
-  repository: chengleqi/hello-kubernetes
+  repository: chengleqi/hello-kubernetes # {"$imagepolicy": "devops-project:demo-image-policy:name"}
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+  tag: "" # {"$imagepolicy": "devops-project:demo-image-policy:tag"}
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
