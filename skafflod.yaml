@@ -1,8 +1,0 @@
-apiVersion: skaffold/v2beta28
-kind: Config
-build:
-  artifacts:
-    - image: hello-kubernetes
-      context: .
-  tagPolicy:
-    sha256: {}
