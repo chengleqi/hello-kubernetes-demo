@@ -25,7 +25,7 @@ logo = logo + ".png"
 
 app.get('/', function (req, res) {
     res.render('home', {
-      message: message,
+      message: message + "update docker image",
       platform: os.type(),
       release: os.release(),
       hostName: os.hostname(),
