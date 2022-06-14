@@ -1,4 +1,4 @@
-nameOverride: new aliyun
+replicaCount: 2
 configs:
   MESSAGE: 阿里云
   LOGO: aks
