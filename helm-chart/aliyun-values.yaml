@@ -1,3 +1,4 @@
+replicaCount: 2
 configs:
   MESSAGE: 阿里云
-  LOGO: aks
+  LOGO: kubernetes
